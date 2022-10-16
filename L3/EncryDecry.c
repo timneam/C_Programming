@@ -8,7 +8,7 @@ int main()
 
    printf("\n Enter the length of message:");
    scanf("%d",&len);
-   printf("\n Enter the choice 1)Encryption 2)Decryption of message:");
+   printf("\n 1)Encryption \n 2)Decryption of message \n Enter the choice: ");
    scanf("%d",&choice);
    printf("\n Enter the secret key:");
    scanf("%d",&key);
