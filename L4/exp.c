@@ -15,8 +15,8 @@ int main()
     absx=x<0?-x:x;  /*if x is negative , convert to positive*/
     do 
     {
-        term*=(absx/n);
-        sum+=term;
+        term*=(absx/n); //term = term * (absx/n)
+        sum+=term; // add every single term
         n+=1;
         printf("\nThe sum at term %d is equal to %le",n,sum);
         printf("\nThe term %d value is %le",n,term);
